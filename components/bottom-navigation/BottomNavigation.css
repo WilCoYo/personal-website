@@ -1,0 +1,162 @@
+
+
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    bottom: .25rem;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 1000; 
+    
+}
+
+.btns {
+    border-radius: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: .5rem;
+    color: #fff;
+       
+    background: rgba(39, 39, 39, 0.1);
+    backdrop-filter: blur(10px);
+  
+    -webkit-backdrop-filter: blur(60px);
+
+    position: relative;
+    z-index: 1000;
+    pointer-events: auto;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.btn {
+    padding: .75rem;
+    min-width: 8rem;
+    outline: none;
+    border: none;
+
+    font-size: 1rem;
+    
+    border: none;
+    background-color: transparent;
+    color: #fff; 
+    
+    cursor: pointer;
+    z-index: 1001; 
+    position: relative;
+    pointer-events: auto;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.outline {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.nav-indicator {
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: calc(100% - 0.5rem);
+    border-radius: 5rem !important; /* Force border-radius throughout animation */
+    background: rgba(250, 250, 250, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(60px);
+    /* Split the transitions to handle position and size separately */
+    transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+                width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 0;
+    
+    /* Add a min-width to prevent it from getting too small during transitions */
+    min-width: 2rem;
+    
+    /* Shimmer effect */
+    background: linear-gradient(
+        90deg, 
+        rgba(250, 250, 250, 0.05) 0%, 
+        rgba(250, 250, 250, 0.2) 50%, 
+        rgba(250, 250, 250, 0.05) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite linear;
+    
+    /* Make sure it has border-radius during initial render */
+    will-change: left, width;
+}
+
+
+/* Keyframe animations */
+@keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .nav-indicator {
+      opacity: 0.75; /* Adjust this value as needed */
+      background: linear-gradient(
+        90deg, 
+        rgba(250, 250, 250, 0.05) 0%, 
+        rgba(250, 250, 250, 0.1) 50%, /* Lighter middle section */
+        rgba(250, 250, 250, 0.05) 100%
+      );
+    }
+  }
+
+
+@media only screen and (max-width: 27rem) {
+    .btn {
+        padding: .40rem;
+        min-width: 5.25rem;
+        outline: none;
+        border: none;
+    
+        font-size: 1rem;
+    }
+
+  
+
+    .nav-indicator {
+        height: calc(100% - .75rem);
+    }
+
+    .resume-download {
+        
+        top: 1rem;
+        right: 1rem;
+           /* other styles */
+        background: rgba(39, 39, 39, 0.1);
+        backdrop-filter: blur(30px);
+        /* fallback for old browsers */
+        -webkit-backdrop-filter: blur(60px);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        padding: .8rem;
+        border-radius: 2rem;
+        transition: opacity 0.3s ease;
+    }
+
+    .resume-download img {
+        width: 2rem;
+    }
+}
