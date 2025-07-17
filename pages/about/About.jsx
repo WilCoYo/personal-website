@@ -4,7 +4,7 @@ import './About.css'
 import Selfie from '../../src/assets/images/SelfiePNG.png'
 
 
-import BottomNavigation from '../../components/bottom-navigation/BottomNavigation'
+
 
 function About() {
   return (

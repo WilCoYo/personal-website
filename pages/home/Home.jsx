@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Home.css'
 
+import TopNavigation from '../../components/top-navigation/TopNavigation'
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -69,6 +70,7 @@ const Home = () => {
 
   return (
     <div className="home-section">
+      <TopNavigation />
       <h4>Hi, my name is</h4>
       <h1 id='name'>Cody Yonkin</h1>
       <h4>

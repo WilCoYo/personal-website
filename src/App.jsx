@@ -8,7 +8,7 @@ import About from '../pages/about/About'
 import Experience from '../pages/experience/Experience'
 import Projects from '../pages/projects/Projects'
 
-import TopNavigation from '../components/top-navigation/TopNavigation'
+
 import BottomNavigation from '../components/bottom-navigation/BottomNavigation'
 
 
@@ -35,7 +35,7 @@ function App() {
   return (
     <Router>
       <div id='vanta'></div>
-      <TopNavigation />
+      
       
 
       <Routes>
