@@ -36,7 +36,7 @@ function App() {
     <Router>
       <div id='vanta'></div>
       <TopNavigation />
-      <BottomNavigation />
+      
 
       <Routes>
         <Route path='/' element={<Home />}/>
@@ -44,7 +44,7 @@ function App() {
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
-      
+      <BottomNavigation />
     </Router>
   )
 }
