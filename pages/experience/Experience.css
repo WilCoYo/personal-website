@@ -101,6 +101,10 @@
 }
 
 
+.mobile {
+    display: none;
+}
+
 
 
 
@@ -108,15 +112,15 @@
 /* Logo Images */
 
 .codecademy-logo {
-    align-self: start;
-    width: 10rem;
+    align-self: center;
+    width: 8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .cityyear-logo {
     
-    
+   
     width: 5rem;
     padding-right: 1rem;
 }
@@ -124,10 +128,6 @@
 .nccc-logo {
     width: 5rem;
     padding-left: 1rem;
-}
-
-.mobile {
-    display: none;
 }
 
 
