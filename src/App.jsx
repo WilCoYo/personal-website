@@ -43,6 +43,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <BottomNavigation />
     </Router>
