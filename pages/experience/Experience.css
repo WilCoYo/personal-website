@@ -24,6 +24,7 @@
 
 .grid h2 {
     font-size: 2rem;
+    margin: 0;
 }
 
 
@@ -40,6 +41,14 @@
 }
 
 .skills h2 {
+    text-align: center;
+}
+
+.codecademy h2 {
+    text-align: center;
+}
+
+.americorps h2 P{
     text-align: center;
 }
 
