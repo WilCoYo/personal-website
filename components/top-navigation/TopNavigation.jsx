@@ -1,10 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router'
 
 import Resume from '../../src/assets/files/Resume.pdf'
 import './TopNavigation.css'
 
 
 function TopNavigation() {
+
+const navigate = useNavigate();
+
+const handleNavigation = (route) => {
+    navigate(route);
+}
+
   return (
     <div className='top-navigation'>
         <div className='top-nav-buttons'>

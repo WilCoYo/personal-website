@@ -8,6 +8,7 @@ import Home from '../pages/home/Home'
 import About from '../pages/about/About'
 import Experience from '../pages/experience/Experience'
 import Projects from '../pages/projects/Projects'
+import Clients from '../pages/clients/Clients'
 
 
 import BottomNavigation from '../components/bottom-navigation/BottomNavigation'
@@ -46,6 +47,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/clients' element={<Clients />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <BottomNavigation />

@@ -10,6 +10,8 @@ function BottomNavigation() {
     const navigate = useNavigate();
     const location = useLocation();
 
+
+   
     const homeRef = useRef(null);
     const aboutRef = useRef(null);
     const experienceRef = useRef(null);
@@ -114,6 +116,10 @@ useEffect(() => {
     }
 }, [])
 
+if(location.pathname === '/clients') {
+    return null;
+}
+
 
     return (
         <div className='navbar'>
@@ -168,5 +174,6 @@ useEffect(() => {
         </div>
     )
 }
+
 
 export default BottomNavigation
