@@ -7,7 +7,7 @@ import './Clients.css'
 function Clients() {
 
     const sendEmailButton = () => { 
-    window.location.href = `mailto:wilcoyonkin@gmail.com?subject='AniRate Support Ticket'&body=Body`;
+    window.location.href = `mailto:william@wildev.co?subject='Contact Form'&body=Body`;
     
   }
 

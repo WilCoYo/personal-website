@@ -1,6 +1,6 @@
 import React, {useRef, useEffect, useState} from 'react'
 import './BottomNavigation.css'
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 
 
 
@@ -8,7 +8,6 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 function BottomNavigation() {
     const navigate = useNavigate();
-    const location = useLocation();
 
 
    
@@ -78,7 +77,7 @@ const updateIndicatorPosition = () => {
         activeButton = experienceRef.current;
     } else if (isActive('/projects')) {
         activeButton = projectsRef.current;
-    }
+    } 
 
     if (activeButton) {
         const containerRect = btnsRef.current.getBoundingClientRect();
@@ -116,9 +115,6 @@ useEffect(() => {
     }
 }, [])
 
-if(location.pathname === '/clients') {
-    return null;
-}
 
 
     return (
