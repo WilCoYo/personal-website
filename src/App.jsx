@@ -1,5 +1,6 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
+
 import { useEffect } from 'react'
 import NET from 'vanta/src/vanta.net'
 
@@ -15,6 +16,8 @@ import BottomNavigation from '../components/bottom-navigation/BottomNavigation'
 
 
 function App() {
+
+ 
 
   useEffect(()=>{
     NET({
