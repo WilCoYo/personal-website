@@ -8,8 +8,9 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 .box {
@@ -17,15 +18,14 @@
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 2rem;
-    width:fit-content;
+    margin: 1rem 0;
+    
+    min-width: 45rem;
        
     background: rgba(39, 39, 39, 0.2);
     backdrop-filter: blur(10px);
 }
 
-.client-text {
-    
-}
 
 .client-text h3 {
     padding: 1rem 0;
@@ -39,18 +39,44 @@
     color: #fff;
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
     padding: 2rem;
     width:fit-content;
        
-    background: rgba(39, 39, 39, 0.2);
+    background: rgba(150, 179, 24, 0.45);
     backdrop-filter: blur(10px);
 }
 
 .help-button:hover {
-    border: 1px solid rgba(150, 179, 24, 0.452);
+    
     
     cursor: pointer;
     scale: 1.1;
 
+}
+
+.local-work {
+    min-width: 45rem;
+}
+
+.local-work h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.local-work-content {
+    display: grid;
+    grid-template-columns: 1fr ;
+    width: 100%;
+}
+
+.local-work img {
+    max-width: 20rem;
+}
+
+.local-work-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
