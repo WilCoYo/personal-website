@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router';
-import emailjs from '@emailjs/browser';
 import HolyCannoli from '../../src/assets/images/hc-logo.png'
 import YogaStudio from '../../src/assets/images/yoga-studio-logo.png'
 import Shoest from '../../src/assets/images/Shoest.png'
