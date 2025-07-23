@@ -15,10 +15,10 @@ function Experience() {
          <div className='skills cell mobile'>
             <h2>Skills</h2>
             <p>
-              <strong>Proficient:</strong> HTML, CSS, JavaScript, React, MongoDB, Node.js, Express.js, PostgreSQL,
+              <strong>Proficient:</strong> <br></br>HTML, CSS, JavaScript, React, MongoDB, Node.js, Express.js, PostgreSQL,
               SQL, Git, GitHub, VSCode, PgAdmin 4, Postbird, Postman, Figma, Netlify, Canva, Wix
             </p>
-            <p><strong>Knowledgeable:</strong> NoSQL, Railway.app, Docker. Python, C++, Unity</p>
+            <p><br></br><strong>Knowledgeable:</strong><br></br> NoSQL, Railway.app, Docker. Python, C++, Unity</p>
           </div>
 
           <div className='codecademy cell mobile'>
