@@ -23,7 +23,7 @@ function Clients() {
   return (
     <div className='client-section'>
 
-      <div className='client-text box'>
+      <div className='client-text'>
         <h1>Web Development Solutions</h1>
         <h2>Questions about your website?</h2>
         <h3>Easy and cost-effect Website Solutions</h3>

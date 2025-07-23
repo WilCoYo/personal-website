@@ -12,6 +12,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin: 1rem 1rem 5rem 1rem;
+    gap:1rem;
 }
 
 .project img {
@@ -21,12 +23,14 @@
 
 .project img:hover {
     cursor: pointer;
-    scale: 1.07;
+    scale: 1.04;
 }
 
 .project {
     text-align: center;
+    min-width: 80%;
     max-width: 80%;
+    
 
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);

@@ -5,15 +5,14 @@
 
 .client-section {
     min-height: 100dvh;
-    width: 100vw;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4rem;
 }
 
-.box {
+.client-text {
     color: #fff;
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -21,6 +20,7 @@
     margin: 1rem 0;
     
     min-width: 45rem;
+   
        
     background: rgba(39, 39, 39, 0.2);
     backdrop-filter: blur(10px);
@@ -62,3 +62,25 @@
 }
 
 
+
+@media only screen and (max-width: 27rem) {
+    .client-text {
+        min-width: 80%;
+        margin: 0;
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+}
+
+    .client-text h2 {
+        padding-top: 1rem;
+    }
+
+    .client-text li{
+        list-style: none;
+    }
+
+    .client-btns {
+        justify-content: center;
+    }
+}

@@ -127,7 +127,7 @@
 @media only screen and (max-width: 27rem) {
     .btn {
         padding: .40rem;
-        min-width: 5.25rem;
+        min-width: 4.25rem;
         outline: none;
         border: none;
     
