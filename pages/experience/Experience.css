@@ -27,6 +27,10 @@
     margin: 0;
 }
 
+.grid h4 {
+    text-indent: .5rem;
+}
+
 
 
 .skills {

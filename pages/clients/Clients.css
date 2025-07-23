@@ -8,7 +8,7 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
 }
@@ -28,11 +28,16 @@
 
 
 .client-text h3 {
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
 }
 
 .client-text ul {
     padding-left: 2rem;
+}
+
+.client-btns {
+    display: flex;
+    gap: 2rem;
 }
 
 .help-button {
@@ -40,43 +45,20 @@
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     width:fit-content;
+    font-size: 1rem;
        
-    background: rgba(150, 179, 24, 0.45);
+    background: rgba(255, 255, 255, 0.158);
     backdrop-filter: blur(10px);
 }
 
 .help-button:hover {
-    
-    
     cursor: pointer;
     scale: 1.1;
+    border: white 1px solid;
+    font-size: 1.1rem;
 
 }
 
-.local-work {
-    min-width: 45rem;
-}
-
-.local-work h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.local-work-content {
-    display: grid;
-    grid-template-columns: 1fr ;
-    width: 100%;
-}
-
-.local-work img {
-    max-width: 20rem;
-}
-
-.local-work-imgs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
 

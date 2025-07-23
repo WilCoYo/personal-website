@@ -15,6 +15,7 @@ function BottomNavigation() {
     const aboutRef = useRef(null);
     const experienceRef = useRef(null);
     const projectsRef = useRef(null);
+    const clientsRef = useRef(null);
     const btnsRef = useRef(null);
     const indicatorRef = useRef(null);
 
@@ -77,6 +78,8 @@ const updateIndicatorPosition = () => {
         activeButton = experienceRef.current;
     } else if (isActive('/projects')) {
         activeButton = projectsRef.current;
+    } else if (isActive('/clients')) {
+        activeButton = clientsRef.current;
     } 
 
     if (activeButton) {
@@ -158,6 +161,12 @@ useEffect(() => {
                             onClick={() => handleNavigation('/projects')}
                             className={`btn btn4 ${isActive('/projects') ? 'outline' : ''}`}>
                             Projects
+                        </button>
+                        <button 
+                            ref={clientsRef}
+                            onClick={() => handleNavigation('/clients')}
+                            className={`btn btn5 ${isActive('/clients') ? 'outline' : ''}`}>
+                            Clients
                         </button>
                    
                   
