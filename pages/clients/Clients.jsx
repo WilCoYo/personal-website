@@ -23,8 +23,8 @@ function Clients() {
     <div className='client-section'>
 
       <div className='client-text'>
-        <h1>Web Development Solutions</h1>
-        <h2>Questions about your website?</h2>
+        <h1>Looking for Website help?</h1>
+        
         <h3>Easy and cost-effect Website Solutions</h3>
         
           
@@ -33,6 +33,8 @@ function Clients() {
             <li>SEO and Website Optimization</li>
             <li>Social Media and Digital Consulation</li>
           </ul>
+          
+        <h2>Contact me for help today</h2>
 
         <div className='client-btns'>
           <button

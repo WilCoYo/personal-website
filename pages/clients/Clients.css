@@ -26,6 +26,10 @@
     backdrop-filter: blur(10px);
 }
 
+.client-text h2 {
+    padding: 1rem 0;
+}
+
 
 .client-text h3 {
     padding: 1rem 0 0 0;
@@ -44,7 +48,6 @@
     color: #fff;
     border-radius: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    margin-top: 2rem;
     padding: 1rem;
     width:fit-content;
     font-size: 1rem;
