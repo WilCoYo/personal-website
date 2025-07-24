@@ -80,7 +80,7 @@
     }
 
     .client-text li{
-        list-style: none;
+        text-align: start;
     }
 
     .client-btns {
