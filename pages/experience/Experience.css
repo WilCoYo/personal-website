@@ -157,8 +157,20 @@
         justify-content: center;
    }
 
+   .mobile h2 {
+        align-self: center;
+   }
+
    .skills h2 {
    
         margin: 0;
+   }
+
+   .codecademy-logo {
+        align-self: start;
+   }
+
+   .americorps-imgs {
+    padding: .5rem 0;
    }
 }

@@ -22,6 +22,7 @@ function Experience() {
           </div>
 
           <div className='codecademy cell mobile'>
+            <h2>Certifications</h2>
             <img src={codecademy} alt='Codecademy Logo' className='codecademy-logo'/>
             <ul>
               <li>Full-Stack Engineer Professional Certification</li>
@@ -30,7 +31,7 @@ function Experience() {
           </div>
 
           <div className='americorps cell mobile'>
-            
+            <h2>Service Programs</h2>
             <div className='americorps-imgs'>
               <img src={cityyear} alt='City Year Logo' className='cityyear-logo'/>
               <img src={nccc} alt='Americorps NCCC Logo' className='nccc-logo'/>
@@ -99,7 +100,7 @@ function Experience() {
 
           
           <div className='americorps cell desktop'>
-            <h2>Volunteering and Service</h2>
+            <h2>Service Programs</h2>
             <div className='americorps-imgs'>
               <img src={cityyear} alt='City Year Logo' className='cityyear-logo'/>
               <img src={nccc} alt='Americorps NCCC Logo' className='nccc-logo'/>
