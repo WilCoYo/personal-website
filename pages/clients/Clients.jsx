@@ -11,7 +11,7 @@ function Clients() {
   const navigate = useNavigate();
 
     const sendEmailButton = () => { 
-    window.location.href = `mailto:william@wildev.co?subject='Contact Form'&body=Body`;
+    window.location.href = `mailto:william@wildev.co?subject='Contact Form - <First Name, Last Name>'&body=<Please type your message here.>`;
     
   }
 
@@ -33,7 +33,7 @@ function Clients() {
             <li>SEO and Website Optimization</li>
             <li>Social Media and Digital Consulation</li>
           </ul>
-          
+
         <h2>Contact me for help today</h2>
 
         <div className='client-btns'>
