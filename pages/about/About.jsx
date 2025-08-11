@@ -18,7 +18,7 @@ function About() {
 
          
             <p>
-              As a self-taught developer who recently completed Full-Stack and Front-End Engineering certifications through Codecademy, I bring a unique combination of technical skills and professional experience that align well with most companies needs. My journey into software engineering demonstrates my commitment to continuous learning, resilience in overcoming challenges without traditional mentorship, and determination to master new technologies—qualities that would serve me well in any fast-paced environment.
+              As a self-taught developer who has completed Full-Stack and Front-End Engineering certifications through Codecademy, I bring a unique combination of technical skills and professional experience that align well with most companies needs. My journey into software engineering demonstrates my commitment to continuous learning, resilience in overcoming challenges without traditional mentorship, and determination to master new technologies—qualities that would serve me well in any fast-paced environment.
               <br></br>
               <br></br>
               During my time as a Code Instructor at Code Ninjas, I taught JavaScript, Python, and C++ fundamentals, which required me to clearly communicate complex technical concepts and adapt my teaching approach to ensure effective knowledge transfer. This experience strengthened my ability to collaborate with others and explain technical solutions—skills that would be valuable when working with team members in any environment.
